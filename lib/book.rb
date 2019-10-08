@@ -13,25 +13,25 @@ class Book
     @title
   end
 
-  def author=(author_name)
-    @author = author_name
-  end
+  # def author=(author_name)
+  #   @author = author_name
+  # end
   
-  def author
-    @author
-  end
+  # def author
+  #   @author
+  # end
   
-  def page_count=(page_count)
-    @page_count = page_count
-  end
+  # def page_count=(page_count)
+  #   @page_count = page_count
+  # end
   
-  def page_count
-    @page_count
-  end
+  # def page_count
+  #   @page_count
+  # end
   
-  def genre=(genre)
-    @genre = genre
-  end
+  # def genre=(genre)
+  #   @genre = genre
+  # end
   
   def genre
     @genre
@@ -40,8 +40,6 @@ class Book
   def turn_page
     puts "Flipping the page...wow, you read fast!"
   end
-
-
 
 end
 
